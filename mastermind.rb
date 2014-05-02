@@ -13,7 +13,7 @@ loop do
   guess_count += 1
 
   if guess == code
-    puts "you broke the code in #{guess_count} guess"
+    puts "you broke the code in #{guess_count} guess(es)"
     break
   elsif guess_count > 9
     puts "game over"
